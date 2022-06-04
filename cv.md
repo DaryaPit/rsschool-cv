@@ -4,9 +4,9 @@
 
 ## Contacts
 
-__Phone:__ +375 29 887-89-82
+* __Phone:__ +375 29 887-89-82
 
-__e-mail:__ m-dv@tut.by
+* __e-mail:__ m-dv@tut.by
 
 ## About Myself: 
 
