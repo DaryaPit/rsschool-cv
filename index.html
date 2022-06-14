@@ -1,2 +1,115 @@
-123
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>cv</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav_ul">
+                <li><a class="nav_a" href="#">About me</a></li>
+                <li><a class="nav_a" href="#">Contacts</a></li>
+                <li><a class="nav_a" href="#">Skills</a></li>
+                <li><a class="nav_a" href="#">Сode</a></li>
+                <li><a class="nav_a" href="#">Projects</a></li>
+                <li><a class="nav_a nav_a_last" href="#">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="ava"><img class="ava_img" src="./assets/img/photo_2022-06-13_23-05-14.jpg" alt="my_avatar">
+            </div>
+            <div class="main_info">
+                <h1 class="name">Darya Masckevich</h1>
+                <div class="status">Junior front-end developer</div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="cv_element">
+                <h2>About me</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <p>I am a positive, cheerful and sympathetic person.<br>
+                            I love cynology, fishing and traveling.<br>
+                            I always try to achieve my goals and objectives.<br>
+                            Studied as a manager-economist of information systems</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv_element">
+                <h2>Contacts</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <li>Phone: +375 29 887-89-82</li>
+                        <li>e-mail: m-dv@tut.by</li>
+                        <li>GitHub: <a href="https://github.com/DaryaPit">DaryaPit</a></li>
+                        <li>Discord: DaryaPit(@DaryaPit)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv_element">
+                <h2>Skills</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv_element">
+                <h2>Сode</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <code>
+                            let arr = [{id: 1, name: 'apple', count: 3}, {id: 2, name: 'cherry', count: 7}];
+                            let obj = {};
+                            arr.forEach(i => obj[i.name] = i.count);
+                        </code>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv_element no_border">
+                <h2>Projects</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <li><a href="https://daryapit.github.io/rsschool-cv/cv">CV#2. Markdown & Git</a></li>
+                        <li><a href="https://daryapit.github.io/rsschool-cv/">CV#3. Html & Css</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="cv_element no_border">
+                <h2>Education</h2>
+                <div class="cv_element_content">
+                    <ul>
+                        <li>Gomel State University of Consumer Cooperatives</li>
+                        <li>Eanglish A1</li>                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <p>&#169 2022</p>
+            <a class="link_my_git" href="https://github.com/DaryaPit/">DaryaPit</a>
+            <a class="logo_rs_a" href="https://rs.school/js/"><img style="width: 100px"
+                    src="./assets/img/rs_school_js.svg" alt="logo_rs_shool"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
